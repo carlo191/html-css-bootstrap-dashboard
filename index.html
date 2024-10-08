@@ -27,19 +27,22 @@
     <link rel="stylesheet" href="././css/style.css" />
   </head>
   <body>
+    <header
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
         <img
-          class="duck w-2 pe-3"
+          class="duck pe-3"
           src="./duck.png"
           alt="duck-logo"
           width="6%"
           height="auto"
         />
+
         <button
           class="navbar-toggler"
           type="button"
+          class="btn btn-outline-light"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup"
@@ -62,6 +65,127 @@
         </div>
       </div>
     </nav>
+</header>
+    <main>
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th scope="col">Titolo</th>
+                            <th scope="col">Data Prestito</th>
+                            <th scope="col">Stato</th>
+                            <th scope="col">Azioni</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="bg-light">
+                            <td>I pilastri della Terra</td>
+                            <td>-</td>
+                            <td><span class="badge-available">Disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td>I promessi sposi</td>
+                            <td>-</td>
+                            <td><span class="badge-available">Disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr class="bg-light">
+                            <td>Il signore degli Anelli</td>
+                            <td>18/10/2023</td>
+                            <td><span class="badge-pending">In prestito</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Harry Potter e la pietra filosofale</td>
+                            <td>-</td>
+                            <td><span class="badge-available">Disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr class="bg-light">
+                            <td>il Codice Da Vinci</td>
+                            <td>-</td>
+                            <td><span class="badge-unavailable">Non disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Shining</td>
+                            <td>-</td>
+                            <td><span class="badge-available">Disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr class="bg-light">
+                            <td>La Divina Commedia</td>
+                            <td>21/09/2023</td>
+                            <td><span class="badge-pending">In prestito</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Il Trono di Spade</td>
+                            <td>-</td>
+                            <td><span class="badge-available">Disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr class="bg-light">
+                            <td>Il mondo di Sofia</td>
+                            <td>-</td>
+                            <td><span class="badge-unavailable">Non disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                            <td>25/07/2023</td>
+                            <td><span class="badge-pending">In prestito</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr class="bg-light">
+                            <td>Il Piccolo Principe</td>
+                            <td>-</td>
+                            <td><span class="badge-available">Disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td>La storia Infinita</td>
+                            <td>-</td>
+                            <td><span class="badge-available">Disponibile</span></td>
+                            <td><span><i class="fa fa-edit" style="font-size:24px"></i></span> <span
+                                    class="fa fa-trash" style="font-size:24px"></span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+        
+</main>
     <!--BOOTSRAP JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
